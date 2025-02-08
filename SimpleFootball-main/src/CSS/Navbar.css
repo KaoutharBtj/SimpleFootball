@@ -1,0 +1,64 @@
+nav.Navbar {
+  height: 4rem;
+  background-color: var(--nav-left-background);
+  border-bottom: solid 1px var(--borders);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+nav .logo {
+  cursor: pointer;
+  font-family: "Varela Round", sans-serif;
+}
+nav .search-bar {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 50%;
+  min-width: 12rem;
+  max-width: 17rem;
+  width: auto;
+  background-color: var(--searchbar-background);
+  border-radius: 15px;
+  padding: 0 10px;
+}
+nav .search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 15px;
+  color: var(--searchbar-input);
+}
+::placeholder {
+  color: var(--searchbar-placeholder);
+}
+nav .search-bar button {
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  padding: 0 10px;
+}
+nav .right-side,
+nav .logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 13%;
+  color: var(--logocolor);
+}
+nav .material-symbols-rounded {
+  margin: 10px;
+  cursor: pointer;
+  color: #636363;
+}
+nav .account {
+  font-size: 2.3rem;
+}
+.main-content {
+  display: flex;
+}
