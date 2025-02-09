@@ -1,4 +1,4 @@
-# Foot Spot
+# Simple Football
 
 Welcome to Foot Spot project!
 
@@ -42,13 +42,13 @@ Before you can run this project, make sure you have the following prerequisites 
 1. Clone the repository to your local machine:
 
    ```shell
-   https://github.com/yassineerrakkas/footspot.git
+   https://github.com/KaoutharBtj/SimpleFootball
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd footspot
+   cd SimpleFootball
    ```
 
 3. Install frontend dependencies:
